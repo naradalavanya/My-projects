@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div clas="row">
+            <div id="sectionprojecthomepage" class="col-12 col-md-12">
+                <div class="d-flex flex-row justify-content-center">
+                    <img src="https://img.freepik.com/free-vector/web-development-concept-website-optimization-web-page-interface-design-coding-testing-site-internet-modern-technology-idea-isolated-flat-vector-illustration_613284-2551.jpg?size=626&ext=jpg&ga=GA1.1.1543872773.1695740829&semt=ais" class="web-image" />
+                </div>
+                <h1 class="projects-head"> My projects</h1>
+                <p class="projects-para"> These are some of my static website projects done with CSS and HTML</p>
+                <div class="d-flex flex-row justify-content-center">
+                    <div>
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/conference-img.png" class="projects-image" onclick="display('sectionconferencehomepage')" />
+                        <h1 class="image-head"> Conference Page</h1>
+                    </div>
+                    <div>
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/podcasts-bg.png" class="projects-image" onclick="display('sectionpodcasthomepage')" />
+                        <h1 class="image-head"> podcast Page</h1>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-center">
+                    <div>
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-bg.png" class="projects-image" onclick="display('sectionmusichomepage')" />
+                        <h1 class="image-head"> Music Page</h1>
+                    </div>
+                    <div>
+                        <img src="https://img.freepik.com/free-photo/still-life-books-versus-technology_23-2150062971.jpg?size=626&ext=jpg&ga=GA1.1.1543872773.1695740829&semt=ais" class="projects-image" onclick="display('sectionbookstorehomepage')" />
+                        <h1 class="image-head"> Book store page</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-container" id="sectionconferencehomepage" class="col-12 col-md-12">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/conference-img.png" class="image w-100" />
+                <h1 class="image-heading"> The Things Conference</h1>
+                <p class="image-para"> Redefining the future of IoT with LoRaWAN</p>
+                <div class="d-flex flex-row justify-content-center">
+                    <button class="btn btn-primary button-1 " onclick="display('sectionconferencedetailspage')"> Know more</button>
+                    <button class="btn btn-primary button-1 " onclick="display('sectionprojecthomepage')"> Back</button>
+                </div>
+            </div>
+            <div id="sectionconferencedetailspage" class="col-12 col-md-12">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vKJ6nXE_6Hc?rel=0" allowfullscreen></iframe>
+                </div>
+                <h1 class="details-heading"> The Things Conference</h1>
+                <p class="image-para">Join Asia's Largest conference on LoRaWAN</p>
+                <div class="d-flex flex-row justify-content-center justify-content-md-center ">
+                    <div class="text-center">
+                        <h1 class="details-disc "> 1400+</h1>
+                        <p class="details-para"> Attendees</p>
+                    </div>
+                    <div class="text-center">
+                        <h1 class="details-disc">100+</h1>
+                        <p class="details-para"> Workshops</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-center justify-content-md-center">
+                    <div class="text-center">
+                        <h1 class="details-disc"> 120+</h1>
+                        <p class="details-para"> Speakers</p>
+                    </div>
+                    <div class="text-center">
+                        <h1 class="details-disc"> 10+</h1>
+                        <p class="details-para"> Countries</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-center">
+                    <button class="btn btn-primary button-1" onclick="display('sectionconferencehomepage')"> Back</button>
+                </div>
+            </div>
+            <div id="sectionpodcasthomepage" class="col-12 col-md-12">
+                <div class="podcasts-home-page-bg-container w-100">
+                    <h1 class="podcast">Podcasts</h1>
+                </div>
+                <div class="d-flex flex-row justify-content-center justify-content-md-center m-3">
+                    <div>
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="puri-image " onclick="display('sectionpodcastpurijagannadhpage')" />
+                        <h1 class="image-disc"> Puri Jagannadh</h1>
+                        <p class="image-episodes"> 24 Episodes</p>
+                    </div>
+                    <div>
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="puri-image" onclick="display('sectionpodcasttedxpage')" />
+                        <h1 class="image-disc"> Tedx talks</h1>
+                        <p class="image-episodes"> 12 Episodes</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-center justify-content-md-center m-3">
+                    <div>
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="puri-image" onclick="display('sectionpodcastsadhgurupage')" />
+                        <h1 class="image-disc"> Sadhguru</h1>
+                        <p class="image-episodes"> 49 Episodes</p>
+                    </div>
+                    <div>
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="puri-image" onclick="display('sectionpodcastonpurposepage')" />
+                        <h1 class="image-disc"> On purpose</h1>
+                        <p class="image-episodes"> 49 Episodes</p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button class="btn btn-primary button" onclick="display('sectionprojecthomepage')">back</button>
+                </div>
+            </div>
+            <div id="sectionpodcastpurijagannadhpage" class="col-12 col-md-12">
+                <div class="blue-card d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="puri-image" />
+                    <div>
+                        <p class="pod"> Podcast</p>
+                        <h1 class="puri-blue"> Puri Jagannadh Podcast</h1>
+                        <p class="puri-para"> The puri Jagannadh Podcast</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="puri-image" />
+                    <div>
+                        <h1 class="podcast-heading"> Molecular Gastronomy</h1>
+                        <p class="podcast-para"> Anything happens there it will not cook,...</p>
+                        <p class="podcast-min"> 15 min</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="puri-image" />
+                    <div>
+                        <h1 class="podcast-heading">Mysterious book</h1>
+                        <p class="podcast-para"> The Voynich manuscript is the 15th century book...</p>
+                        <p class="podcast-min"> 12 min</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="puri-image" />
+                    <div>
+                        <h1 class="podcast-heading">Predator Drone</h1>
+                        <p class="podcast-para">The most power full drone. It is 10 feet height...</p>
+                        <p class="podcast-min"> 10 min</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="puri-image" />
+                    <div>
+                        <h1 class="podcast-heading"> Paella</h1>
+                        <p class="podcast-para"> The national dish of spain.It was first star...</p>
+                        <p class="podcast-min"> 6 min</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-end">
+                    <button class="button" onclick="display('sectionpodcasthomepage')">Back</button>
+                </div>
+            </div>
+            <div id="sectionpodcasttedxpage" class="col-12 col-md-12">
+                <div class="blue-card d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="puri-image" />
+                    <div>
+                        <p class="pod"> Podcast</p>
+                        <h1 class="puri-blue"> The Tedx Podcast</h1>
+                        <p class="puri-para"> The Tedx Podcast</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="puri-image" />
+                    <div>
+                        <h1 class="podcast-heading"> The science of friction</h1>
+                        <p class="podcast-para"> tribology:It's a funny sounding word you might...</p>
+                        <p class="podcast-min"> 12 min</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="puri-image" />
+                    <div>
+                        <h1 class="podcast-heading">Unleash you</h1>
+                        <p class="podcast-para"> What can we learn from the World's most enduringly...</p>
+                        <p class="podcast-min"> 8 min</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="puri-image" />
+                    <div>
+                        <h1 class="podcast-heading">3 psychological tricks</h1>
+                        <p class="podcast-para">We all want to save more money - but overall,...</p>
+                        <p class="podcast-min"> 10 min</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="puri-image" />
+                    <div>
+                        <h1 class="podcast-heading"> The case for stubborn</h1>
+                        <p class="podcast-para"> This decade is a moment of choice unlike any we...</p>
+                        <p class="podcast-min"> 12 min</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-end">
+                    <button class="button" onclick="display('sectionpodcasthomepage')">Back</button>
+                </div>
+            </div>
+            <div id="sectionpodcastsadhgurupage" class="col-12 col-md-12">
+                <div class="blue-card d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="puri-image" />
+                    <div>
+                        <p class="pod"> Podcast</p>
+                        <h1 class="puri-blue"> The Sadhguru podcast</h1>
+                        <p class="puri-para"> The Sadhguru Podcast</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="puri-image" />
+                    <div>
+                        <h1 class="podcast-heading"> Head or heart</h1>
+                        <p class="podcast-para"> Sadhguru shares his wisdom on how to make...</p>
+                        <p class="podcast-min"> 16 min</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="puri-image" />
+                    <div>
+                        <h1 class="podcast-heading">How to equip yourself</h1>
+                        <p class="podcast-para"> Society and human interactions are going...</p>
+                        <p class="podcast-min"> 13 min</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="puri-image" />
+                    <div>
+                        <h1 class="podcast-heading">How not to get irritated</h1>
+                        <p class="podcast-para">How do you see an unpleasant spouse the...</p>
+                        <p class="podcast-min"> 15 min</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="puri-image" />
+                    <div>
+                        <h1 class="podcast-heading"> Isha Kriya</h1>
+                        <p class="podcast-para"> Rooted in the timesless wisdom if the yogic...</p>
+                        <p class="podcast-min"> 16 min</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-end">
+                    <button class="button" onclick="display('sectionpodcasthomepage')">Back</button>
+                </div>
+            </div>
+            <div id="sectionpodcastonpurposepage" class="col-12 col-md-12">
+                <div class="blue-card d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="puri-image" />
+                    <div>
+                        <p class="pod"> Podcast</p>
+                        <h1 class="puri-blue"> On pupose with Jay</h1>
+                        <p class="puri-para"> The jay shetty Podcast</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="puri-image" />
+                    <div>
+                        <h1 class="podcast-heading"> Patrick Bet David</h1>
+                        <p class="podcast-para"> Are you an enterpreneur or have dreams of mental...</p>
+                        <p class="podcast-min"> 10 min</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="puri-image" />
+                    <div>
+                        <h1 class="podcast-heading">5 Techniques to cope</h1>
+                        <p class="podcast-para"> Does anxiety looms around every corner of your..</p>
+                        <p class="podcast-min"> 4 min</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="puri-image" />
+                    <div>
+                        <h1 class="podcast-heading">Radhanath Swami ON</h1>
+                        <p class="podcast-para">World-renowed spiritual leader and philanthropist...</p>
+                        <p class="podcast-min"> 12 min</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="puri-image" />
+                    <div>
+                        <h1 class="podcast-heading"> 3 Ways to let go</h1>
+                        <p class="podcast-para"> Do the opinions of others veer you from the core...</p>
+                        <p class="podcast-min"> 13 min</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-end">
+                    <button class="button" onclick="display('sectionpodcasthomepage')">Back</button>
+                </div>
+            </div>
+            <div id="sectionmusichomepage" class="music-bg pb-5 " class="col-12 col-md-12">
+                <div class="moon-image text-center">
+                    <h1 class="sleep-head"> Sleep Music</h1>
+                    <p class="sleep-para1"> Soothing bedtime music to help you to fall into a deep
+                        and natural sleep</p>
+                </div>
+                <div class="night-card d-flex flex-column justify-content-center text-center">
+                    <h1>Night Island</h1>
+                </div>
+                <div class="text-center">
+                    <p class="sleep-para1"> Non-stop 8-hour mixes of our most popular sleep audio</p>
+                    <button class="button" onclick="display('sectionmusicdetailspage')"> Get Started</button>
+                    <button class="button" onclick="display('sectionprojecthomepage')"> Back</button>
+                </div>
+            </div>
+            <div class="music-bg pb-5" id="sectionmusicdetailspage" class="col-12 col-md-12">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/clouds-img.png" class="clouds-image w-100" />
+                <h1 class="night-head"> Night Island</h1>
+                <p class="night-para"> Ease the mind into a restful night's sleep with these deep,amblent tones.</p>
+                <p class="night-para"> 45 MIN SLEEP MUSIC</p>
+                <h1 class="related"> Related</h1>
+                <div class="d-flex flex-row">
+                    <div>
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-clouds-img.png" class="related-image" />
+                        <h1 class="related"> Moon Clouds</h1>
+                        <p class="night-para"> 55 MIN SLEEP MUSIC</p>
+                    </div>
+                    <div>
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sweet-sleep-img.png" class="related-image" />
+                        <h1 class="related"> Sweet Sleep</h1>
+                        <p class="night-para"> 60 MIN SLEEP MUSIC</p>
+                    </div>
+                </div>
+                <button class="button" onclick="display('sectionmusichomepage')"> Back</button>
+
+            </div>
+            <div class="book-store-bg" id="sectionbookstorehomepage" class="col-12 col-md-12">
+                <h1 class="popular-book-head"> Popular Book</h1>
+                <div class="apj-card d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="apj-image" />
+                    <div>
+                        <h1 class="wof-head"> Wings of Fire</h1>
+                        <p class="wof-para"> An Autobiography of Abdul Kalam</p>
+                        <p class="arun-t">by Arun Tiwari</p>
+                        <button class="btn btn-primary button" onclick="display('sectionwingsoffirebookdetailspage')"> Read Now</button>
+                    </div>
+                </div>
+                <h1 class="recommended-book-head"> Recommended Books</h1>
+                <div class="d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="recomend-image" />
+                    <div>
+                        <h1 class="cb-head"> The 3 mistakes of my life</h1>
+                        <p class="cb-para"> Indian author <br />
+                            by Chetan Bhagat</p>
+                        <button class="btn btn-primary button" onclick="display('sectionthe3mistakesofmylife')"> Read Now</button>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="recomend-image" />
+                    <div>
+                        <h1 class="cb-head"> Harry Potter</h1>
+                        <p class="cb-para"> and the Sorcerer's stone<br />
+                            by J.K.Rowling</p>
+                        <button class="btn btn-primary button" onclick="display('sectionharrypotterbookdetailspage')"> Read Now</button>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button class="btn btn-warning" onclick="display('sectionprojecthomepage')"> Back</button>
+                </div>
+            </div>
+            <div class="book-store-bg" id="sectionwingsoffirebookdetailspage" class="col-12 col-md-12">
+                <div class="d-flex flex-row justify-content-center">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="book-image " />
+                </div>
+                <div class="text-center">
+                    <h1 class="popular-book-head">Wings of Fire</h1>
+                    <p class="arun-w"> by Arun Tiwari</p>
+                </div>
+                <p class="apj-para"> Every common man who by his sheer grit and hard work achieves success should share
+                    with the rest for they may find inspiration and strength to go on,in his story.
+                    The 'Wings of Fire' is one such autobiography by visionary scientist Dr.APJ Abdul Kalam,
+                    who from very humble beginnings rose to be the President of India. The book is full of insights,
+                    personal moments and life experience of Dr.Kalam. It gives us an understanding on his journey of success.</p>
+                <div class="text-center">
+                    <button class="btn btn-warning button-1" onclick="display('sectionbookstorehomepage')"> Back</button>
+                    <button class="btn btn-primary button-1"> Buy Now</button>
+                </div>
+            </div>
+            <div class="book-store-bg" id="sectionthe3mistakesofmylife" class="col-12 col-md-12">
+                <div class="d-flex flex-row justify-content-center">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="book-image " />
+                </div>
+                <div class="text-center">
+                    <h1 class="popular-book-head">The 3 mistakes of my life</h1>
+                    <p class="arun-w"> by Chetan Bhagat</p>
+                </div>
+                <p class="apj-para"> The 3 Mistakes of my life is the third novel written by eminent Indian Author Chetan Bhagat.
+                    Based on cricket,bussiness and religion,the novel is set against the backdrop of beautiful city Ahmedabad.
+                    Revolving around three young Indian boys Oml,Ishaan and Govid,the book goes on to narrate how the three are trying their
+                    best to make ends meet in the city.Based on real events,the book starts with a dramatic twist,
+                    where Bhagat is reading an e-mail sent by some young person Govind.</p>
+                <div class="text-center">
+                    <button class="btn btn-warning button-1" onclick="display('sectionbookstorehomepage')"> Back</button>
+                    <button class="btn btn-primary button-1"> Buy Now</button>
+                </div>
+            </div>
+            <div class="book-store-bg" id="sectionharrypotterbookdetailspage" class="col-12 col-md-12">
+                <div class="d-flex flex-row justify-content-center">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="book-image " />
+                </div>
+                <div class="text-center">
+                    <h1 class="popular-book-head">Harry Potter</h1>
+                    <p class="arun-w"> by J.K.Rowling</p>
+                </div>
+                <p class="apj-para"> Harry potter's life is miserable.His parents are dead and he's stuck with his heartless relatives,who force him to live in a tiny closest under the stairs.
+                    But his fortune changes when he receives a letter hat tells him the truth about himself:he's a wizard.
+                    A mysterious visitor rescues him from his relatives and takes him to his new home,
+                    Hogwarts School of Witchcraft and Wizardy. After a lifetime of bottling up his magical powers,Harry finally feels
+                    like a normal kid. </p>
+                <div class="text-center">
+                    <button class="btn btn-warning button-1" onclick="display('sectionbookstorehomepage')"> Back</button>
+                    <button class="btn btn-primary button-1"> Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
